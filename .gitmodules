@@ -1,0 +1,6 @@
+[submodule "shopper-backend"]
+	path = shopper-backend
+	url = https://github.com/babigoliveira/shopper-backend
+[submodule "shopper-frontend"]
+	path = shopper-frontend
+	url = https://github.com/babigoliveira/shopper-frontend
