@@ -1,12 +1,15 @@
 ## Descrição
 
-1ª etapa do desafio para vaga Full-Stack da Shopper.
+Desafio para vaga Full-Stack da Shopper.
 Esse repositório contém o código do [frontend](https://github.com/babigoliveira/shopper-frontend)
 e [backend](https://github.com/babigoliveira/shopper-backend) como submódulos GIT.
 
 ## Setup
 
 ```bash
+export GEMINI_API_KEY=YOUR_KEY
+git clone --recurse-submodules git@github.com:babigoliveira/shopper.git
+cd shopper
 docker compose up
 ```
 
@@ -21,5 +24,5 @@ docker compose up
 ℹ Apenas o projeto Back-End possui testes
 
 ```bash
-$  docker compose run api npm run test:e2e:cov
+docker compose run api npm run test:e2e:cov
 ```
